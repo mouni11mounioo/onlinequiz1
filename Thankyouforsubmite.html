@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            height: 90px;
+            width: 100%;
+            font-size: 40px;
+            color: rgb(22, 214, 5);
+            /* text-shadow: 5px 5px 5px rgb(22, 214, 5) ; */
+            margin: 50px 0 0 0 ;
+        }
+        .box-container{
+            height: 300px;
+            width: 600px;
+            position: relative;
+            left: 500px;
+            line-height: 100px;
+            background-color: powderblue;
+            border-radius: 15px ;
+            box-shadow: 5px 5px 5px ;
+            
+        }
+        h2{
+            position: relative;
+            left: 110px;
+            font-size: 30px;
+            /* text-shadow: 5px 5px 9px black; */
+        }
+        h2:hover{
+            color: darkred;
+            text-shadow: 5px 5px 9px black;
+            transform: scale(1.1);
+        }
+        .box-container>div{
+            display: flex;
+            justify-content: space-around;
+            height: 50px;
+            
+        }
+        .box-container>div>button{
+            position: relative;
+            width: 150px;
+            height: 30px;
+            top: 50px;
+            left: -80px;
+            border-radius: 8px;
+            border: none;
+            box-shadow: 3px 3px 3px blue;
+            background-image:radial-gradient(bisque,brown );
+            font-size: 20px;
+            font-weight: bolder;
+            font-style: oblique;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .box-container>div>button:hover{
+            transform: scale(1.1);
+        }
+        .box-container>div>h3{
+            position: relative;
+            left: 50px;
+            top: -5px;
+            font-size: 20px;
+            color: brown;
+            font-weight: bolder;
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>YOUR SUCCESFULLY SUMBITED QUIZ.....!</h1>
+    <div class="box-container">
+        <h2>
+            YOUR PASSED IN THIS QUIZ
+        </h2>
+        <div>
+            <h3>QUIZ MARKS </h3>
+            <button>50</button>
+        </div>
+    </div>
+</body>
+</html>
